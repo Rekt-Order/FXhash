@@ -11,3 +11,7 @@
 - windowサイズ変更に対応する
 
 - fxhashのsandboxでテストする（fxhash上で正しく動作するかをfxhashのsandboxでテストを実施）
+
+少し技術的な記事としては、[永松歩さんの記事「Webpack+TypeScriptでfxhash」](https://qiita.com/ayumu_nagamatsu/items/9faaceb6ce62796daad2) が参考になる。
+
+- fxhashは単純なHTMLとして開けるファイル群を用意できればNFT化できますが、各シリーズがNFTとして不変である必要があり、IPFSにホストされるという点からもCDNなど外部リソースや、APIを叩いたり、または、カメラなどデバイスのリソースにアクセスしようとするコードは動作できません。全体の作品の容量も現状15MB以内の制限があります。
